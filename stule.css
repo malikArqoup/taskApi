@@ -1,0 +1,27 @@
+body{
+    display: block;
+    margin: 8px;
+    padding: 0;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    gap: 40px    
+}
+
+.product{
+    width: 15%;
+    background-color: #9bd4d4;
+    border-radius: 20%;
+    filter: drop-shadow(10px 7px 10px #846464);}
+    
+.product img{
+    width: 30%;
+    border-radius: 20%;
+    filter: drop-shadow(10px 7px 10px orange);
+  }
+.product h2{
+    color: red;
+}
